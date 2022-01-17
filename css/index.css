@@ -1,0 +1,88 @@
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+main{
+    position:relative;
+    z-index: 1;
+}
+.sobremi{
+    width: 20em;
+    display: inline-block;
+}
+.sobremi header h2{
+    margin-top: 0;
+    font-size: 120%;
+}
+.sobremi header p{
+    color: rgb(138, 126, 105);
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+.sobremi article{
+    background-color: rgb(209, 206, 201)
+}
+.sobremi h2{
+    padding-top: 1em;
+    font-size: 120%;
+}
+.sobremi p{
+    color: rgb(139, 118, 81);
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+.sobremi footer{
+    background-color: #7ABA96;
+    font-size: 120%;
+    height: 1.5em;
+    position: relative;
+}
+.sobremi footer a{
+    text-align: center;
+    font-weight: bold;
+    top: -0.9em;
+    left: 5.5em;
+    color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.sobremi footer a:hover{
+    background-color: red;
+    color: rgb(255, 255, 255);
+}
+.recetas{
+    width: 60em;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5em;
+}
+.recetas article {
+    width: 23.4375em;
+    height: 30em;
+    margin-right: 3em;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+.recetas img{
+    width: 23.4375em;
+    height: 15.3125em;
+}
+.recetas a:hover{
+    color: rgb(139,118,81);
+}
+.recetas h3{
+    border-top: 0.125em solid #7ABA96;
+    border-bottom: 0.125em solid #7ABA96;
+    font-size: 100%;
+    font-weight: lighter;
+}
+.recetas p{
+    margin-left: 0.3125em;
+    margin-right: 0.3125em;
+}

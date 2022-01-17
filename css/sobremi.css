@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 40em
+}
+img{
+    display: inline-block;
+    vertical-align: top;
+    height: 225px;
+    width: 225px;
+    margin-top: 15em;
+}
+div{
+    width: 225px;
+    height: 225px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 180%;
+    text-align: left;
+    margin-top: 9em;
+}
